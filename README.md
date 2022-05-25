@@ -34,8 +34,8 @@ Make sure you have installed *visual studio c++*, *python3*, *pip package instal
    
    * pip install django
    * pip install psycopg2
-   * pip install face_recognition
    * pip install cmake
+   * pip install face_recognition
    
 * Create django migrations for database using the following commands
    
@@ -43,16 +43,16 @@ Make sure you have installed *visual studio c++*, *python3*, *pip package instal
    * python manage.py sqlmigrate home 0001
    * python manage.py migrate
    
-* Create a super user i.e, the admin
+* Create a super user i.e, the admin using the command below
    
    python manage.py createsuperuser
    
    * The command prompt will ask for the username and password for the admin.
-   * enter the required details
+   * enter the required details.
    
-* Run the server and open the website at http://127.0.0.1:8000/ localhost
+* Run the server and open the website at http://127.0.0.1:8000/ localhost(run the command below to use the website)
    
-   python manage.py runserver
+   *python manage.py runserver
    
 ## Screenshots of the project running
 
