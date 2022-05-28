@@ -55,4 +55,5 @@ Make sure you have installed *visual studio c++*, *python3*, *pip package instal
    *python manage.py runserver
    
 ## Screenshots of the project running
+![Untitled](https://drive.google.com/file/d/1abQFE_uLewr1Sz2EsnzC3IB4CHYDEwWx/view?usp=sharing)
 
