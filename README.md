@@ -55,4 +55,32 @@ Make sure you have installed *visual studio c++*, *python3*, *pip package instal
    *python manage.py runserver
    
 ## Screenshots of the project running
-![image](https://drive.google.com/file/d/1abQFE_uLewr1Sz2EsnzC3IB4CHYDEwWx/view?usp=sharing)
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/Screenshot%20(254).png)
+
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/Screenshot%20(255).png)
+
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/Screenshot%20(256).png)
+
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/Screenshot%20(258).png)
+
+## Usecase Diagram
+
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/usecase%20ams.png)
+
+## Class Diagram
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/class%20ams.jpeg)
+
+## Sequence Diagrams
+
+### LOGIN Sequence
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/loginseq%20ams.png)
+
+### Time Table Access Sequence
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/timetableseq%20ams.jpg)
+
+### Queries Sequence
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/queriesseq%20ams.jpeg)
+
+### Marking Attendance Sequence
+![image](https://github.com/PradeepAkula/Attendance-mangement/blob/main/pictures%20ams/markattend%20ams.jpg)
+
