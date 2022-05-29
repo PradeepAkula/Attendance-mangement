@@ -17,10 +17,11 @@ Make sure you have installed *visual studio c++*, *python3*, *pip package instal
    sh
    git clone {repository link}
    
-* Open the migrations in home folder of the project and delete all the migration files which are numbered.
-* Install postgresql and Pg-admin in your system.
+* Open the migrations in home folder of the project(main AMS folder) and delete all the migration files which are numbered.
+* Install postgresql and Pg-admin in your system.(install pgadmin seperately instead of including it in postgresql installation to avoid errors).
+* Dont forget to install "Microsoft visual studio c++".(dont confuse with normal visual studio code)
 * Create a database in pg admin.
-* Update the database name and password in *settings.py* file of AMS folder to connect the database to our project.
+* Update the database name and password in *settings.py* file of AMS folder inside the project(main AMS folder) to connect the database to our project.
 * Change the directory to the place where manage.py file is available.
 * Create a virtual environment
    * pip install virtualenvwrapper-win
@@ -46,9 +47,14 @@ Make sure you have installed *visual studio c++*, *python3*, *pip package instal
 * Create a super user i.e, the admin using the command below
    
    python manage.py createsuperuser
+  
    
    * The command prompt will ask for the username and password for the admin.
-   * enter the required details.
+   * enter the required details.(the password will not be visible while entering,so please type the password and press enter for conforming,type again the same password, it will not be visible now also ,so please take care and hit enter.) 
+   * Creating a superuser(admin) is necessary for a new database.
+   * (Only in extreme case becuz it may create errors)If you dont create a new database then use admin details to use the existing database.
+   * Username:prade
+   * Password:prade 
    
 * Run the server and open the website at http://127.0.0.1:8000/ localhost(run the command below to use the website)
    
