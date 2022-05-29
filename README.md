@@ -19,7 +19,8 @@ Make sure you have installed *visual studio c++*, *python3*, *pip package instal
    
 * Open the migrations in home folder of the project(main AMS folder) and delete all the migration files which are numbered.
 * Install postgresql and Pg-admin in your system.(install pgadmin seperately instead of including it in postgresql installation to avoid errors).
-* Dont forget to install "Microsoft visual studio c++".(dont confuse with normal visual studio code)
+* Dont forget to install "Microsoft visual studio c++".(you can find it on "https://visualstudio.microsoft.com/vs/features/cplusplus/").
+Try to install all packages(4.2 GB) in it  to avoid errors while installing cmake in further steps.
 * Create a database in pg admin.
 * Update the database name and password in *settings.py* file of AMS folder inside the project(main AMS folder) to connect the database to our project.
 * Change the directory to the place where manage.py file is available.
